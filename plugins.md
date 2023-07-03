@@ -41,8 +41,6 @@ dependencies {
     implementation("net.kyori:adventure-api:4.2.0")
 }
 ```
-+++ Maven
-If you're seeing this, it means I forgot to add this part. Tell SlimeDiamond
 +++
 
 ## Defining a plugin
@@ -77,11 +75,11 @@ Once you've chosen your preferred definition method, we can move onto the main c
 
 Here, we are injecting a logger to be used and saying `Hey!` once the plugin is enabled.
 ```java
-package net.zenoc.zprotect;
+package org.galliumpowered.example;
 
 import com.google.inject.Inject;
-import net.zenoc.gallium.api.annotations.PluginLifecycleListener;
-import net.zenoc.gallium.plugin.PluginLifecycleState;
+import org.galliumpowered.api.annotations.PluginLifecycleListener;
+import org.galliumpowered.plugin.PluginLifecycleState;
 import org.apache.logging.log4j.Logger;
 
 public class MyPlugin {
