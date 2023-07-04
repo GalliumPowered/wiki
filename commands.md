@@ -12,8 +12,8 @@ Your command class should have a `@Command` annotation in it.
 package org.galliumpowered.example;
 
 import net.kyori.adventure.text.Component;
-import net.zenoc.gallium.api.annotations.Command;
-import net.zenoc.gallium.commandsys.CommandContext;
+import org.galliumpowered.api.annotations.Command;
+import org.galliumpowered.commandsys.CommandContext;
 
 public class MyCommand {
     @Command(aliases = {"hello"}, description = "Hey!")
@@ -28,9 +28,9 @@ You need to register your command!
 package org.galliumpowered.example;
 
 import com.google.inject.Inject;
-import net.zenoc.gallium.api.annotations.PluginLifecycleListener;
-import net.zenoc.gallium.commandsys.PluginCommandManager;
-import net.zenoc.gallium.plugin.PluginLifecycleState;
+import org.galliumpowered.api.annotations.PluginLifecycleListener;
+import org.galliumpowered.commandsys.PluginCommandManager;
+import org.galliumpowered.plugin.PluginLifecycleState;
 import org.apache.logging.log4j.Logger;
 
 public class MyPlugin {

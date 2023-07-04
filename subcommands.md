@@ -4,8 +4,8 @@ Subcommands
 package org.galliumpowered.example;
 
 import net.kyori.adventure.text.Component;
-import net.zenoc.gallium.api.annotations.Command;
-import net.zenoc.gallium.commandsys.CommandContext;
+import org.galliumpowered.api.annotations.Command;
+import org.galliumpowered.commandsys.CommandContext;
 
 public class MyCommand {
     @Command(aliases = {"hello"}, description = "Hey!")
