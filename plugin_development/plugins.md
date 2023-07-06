@@ -13,7 +13,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.galliumpowered:gallium:1.1.0-beta.3'
+    implementation 'org.galliumpowered:gallium:1.1.0-beta.4'
     implementation 'org.apache.logging.log4j:log4j-core:2.19.0'
     implementation 'org.apache.logging.log4j:log4j-api:2.19.0'
     implementation 'org.apache.logging.log4j:log4j-slf4j2-impl:2.19.0'
@@ -31,7 +31,7 @@ repositories {
 }
 
 dependencies {
-    implementation("org.galliumpowered:gallium:1.1.0-beta.3")
+    implementation("org.galliumpowered:gallium:1.1.0-beta.4")
     implementation("org.apache.logging.log4j:log4j-core:2.19.0")
     implementation("org.apache.logging.log4j:log4j-api:2.19.0")
     implementation("org.apache.logging.log4j:log4j-slf4j2-impl:2.19.0")
@@ -78,7 +78,7 @@ Here, we are injecting a logger to be used and saying `Hey!` once the plugin is 
 package org.galliumpowered.example;
 
 import com.google.inject.Inject;
-import org.galliumpowered.api.annotations.PluginLifecycleListener;
+import org.galliumpowered.annotation.PluginLifecycleListener;
 import org.galliumpowered.plugin.PluginLifecycleState;
 import org.apache.logging.log4j.Logger;
 

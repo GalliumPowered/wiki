@@ -4,8 +4,8 @@ A parent command is required to have a subcommand. You can use `parent` to defin
 package org.galliumpowered.example;
 
 import net.kyori.adventure.text.Component;
-import org.galliumpowered.api.annotations.Command;
-import org.galliumpowered.commandsys.CommandContext;
+import org.galliumpowered.annotation.Command;
+import org.galliumpowered.command.CommandContext;
 
 public class MyCommand {
     // Parent command
