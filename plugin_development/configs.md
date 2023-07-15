@@ -1,5 +1,6 @@
 ---
 label: Configurations
+order: 1
 ---
 
 # Plugin configurations

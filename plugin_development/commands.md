@@ -1,6 +1,6 @@
 ---
 label: Commands
-order: 2
+order: 20
 ---
 
 # Commands

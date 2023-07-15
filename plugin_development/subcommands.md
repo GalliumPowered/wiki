@@ -1,3 +1,8 @@
+---
+label: Subcommands
+order: 19
+---
+
 # Subcommands
 A parent command is required to have a subcommand. You can use `parent` to define it. `parent` should be an alias of the parent.
 ```java
