@@ -51,21 +51,21 @@ Do not use both an annotation and JSON to define a plugin. Pick one and only use
 JSON can be used to define a plugin. It should be a `plugin.json` file in your resources. Consider the following template:
 ```json
 {
-    "mainClass": "net.zenoc.gallium.test.Main",
-    "name": "GalliumTestPlugin",
-    "id": "testplugin",
-    "description": "A plugin for testing thingies",
-    "authors": ["SlimeDiamond"],
+    "mainClass": "org.gallium.example.MyPlugin",
+    "name": "My Plugin",
+    "id": "myplugin",
+    "description": "My first Gallium plugin",
+    "authors": ["You"],
     "version": "1.1"
 }
 ```
 ### Annotation
 Plugins can also be defined through an annotated main class. Consider the following template:
 ```java
-@Plugin(name = "Gallium",
-        id = "gallium",
-        description = "Gallium internal plugin",
-        authors = { "SlimeDiamond" },
+@Plugin(name = "My Plugin",
+        id = "myplugin",
+        description = "My first Gallium plugin",
+        authors = { "You" },
         version = "1.0")
 ```
 If you are using this method, ensure that your `Main-Class` attribute is properly set.
