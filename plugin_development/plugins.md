@@ -51,7 +51,7 @@ Do not use both an annotation and JSON to define a plugin. Pick one and only use
 JSON can be used to define a plugin. It should be a `plugin.json` file in your resources. Consider the following template:
 ```json
 {
-    "mainClass": "org.gallium.example.MyPlugin",
+    "mainClass": "org.galliumpowered.example.MyPlugin",
     "name": "My Plugin",
     "id": "myplugin",
     "description": "My first Gallium plugin",
