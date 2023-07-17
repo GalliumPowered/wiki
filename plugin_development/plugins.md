@@ -4,6 +4,7 @@ order: 1000
 ---
 
 # Plugins
+If you think it might help, there is an example plugin which can be found [here](https://github.com/GalliumPowered/ExamplePluginJava)
 ## Setting up
 +++ Gradle (Groovy)
 ```groovy
