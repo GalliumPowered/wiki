@@ -26,3 +26,5 @@ public class MyCommand {
     }
 }
 ```
+
+Now if we run `/hello hello2` ingame, we will see `Hey2!`
