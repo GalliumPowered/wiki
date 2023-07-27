@@ -7,7 +7,10 @@ order: 20
 Commands are those things starting with a `/` ingame.
 
 ## Command class
-Your command class should have a `@Command` annotation in it.
+Your command method should have a `@Command` annotation in it.
+
+The method should take CommandContext as a parameter.
+
 ```java
 package org.galliumpowered.example;
 
