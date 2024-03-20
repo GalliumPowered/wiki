@@ -32,7 +32,7 @@ package org.galliumpowered.example;
 
 import com.google.inject.Inject;
 import org.galliumpowered.annotation.PluginLifecycleListener;
-import org.galliumpowered.command.PluginCommandManager;
+import org.galliumpowered.command.CommandManager;
 import org.galliumpowered.plugin.PluginLifecycleState;
 import org.apache.logging.log4j.Logger;
 
@@ -41,12 +41,12 @@ public class MyPlugin {
     private Logger log;
 
     @Inject
-    private PluginCommandManager commandManager;
+    private PluginContainer pluginContainer;
 
     @PluginLifecycleListener(PluginLifecycleState.ENABLED)
     public void onPluginEnable() {
         log.info("Hey!");
-        commandManager.registerCommand(new MyCommand());
+        Gallium.getCommandManager().registerCommand(new MyCommand(), pluginContainer);
     }
 }
 ```
