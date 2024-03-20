@@ -8,6 +8,9 @@ If you think it might help, there is an example plugin which can be found [here]
 ## Setting up
 +++ Gradle (Groovy)
 ```groovy
+plugins {
+    id 'java'
+}
 repositories {
     mavenCentral()
     maven { url 'https://repo.zenoc.net/repository/' }
@@ -26,6 +29,9 @@ dependencies {
 ```
 +++ Gradle (Kotlin)
 ```kts
+plugins {
+    id("java")
+}
 repositories {
     mavenCentral()
     maven("https://repo.zenoc.net/repository")
