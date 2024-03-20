@@ -17,7 +17,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.galliumpowered:gallium:1.1.0-beta.4'
+    implementation 'org.galliumpowered:gallium:1.1.0-beta.5'
     implementation 'org.apache.logging.log4j:log4j-core:2.19.0'
     implementation 'org.apache.logging.log4j:log4j-api:2.19.0'
     implementation 'org.apache.logging.log4j:log4j-slf4j2-impl:2.19.0'
@@ -38,7 +38,7 @@ repositories {
 }
 
 dependencies {
-    implementation("org.galliumpowered:gallium:1.1.0-beta.4")
+    implementation("org.galliumpowered:gallium:1.1.0-beta.5")
     implementation("org.apache.logging.log4j:log4j-core:2.19.0")
     implementation("org.apache.logging.log4j:log4j-api:2.19.0")
     implementation("org.apache.logging.log4j:log4j-slf4j2-impl:2.19.0")

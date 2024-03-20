@@ -36,7 +36,7 @@ public class MyPlugin {
     @PluginLifecycleListener(PluginLifecycleState.ENABLED)
     public void onPluginEnable() {
         // Registering the listener
-        Gallium.getEventManager().registerEvent(new TestListener());
+        Gallium.getEventManager().registerListener(new TestListener());
     }
 }
 ```
